@@ -1,3 +1,5 @@
 // Export all models from a single entry point
-export { default as Event, IEvent } from './event.model';
-export { default as Booking, IBooking } from './booking.model';
+export { default as Event } from './event.model';
+export type { IEvent } from './event.model';
+export { default as Booking } from './booking.model';
+export type { IBooking } from './booking.model';
